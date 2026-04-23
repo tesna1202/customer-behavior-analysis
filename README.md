@@ -10,12 +10,14 @@ Data Storage & Analysis using SQL Server
 Interactive Dashboard using Power BI
 
 🛠️ Tech Stack
+
 Python (Pandas, NumPy, Seaborn, Matplotlib)
 SQL Server
 Power BI
 SQLAlchemy & PyODBC
 
 🔄 Workflow
+
 Load raw data using Python
 Clean and preprocess dataset
 Create new features (e.g., spending categories)
@@ -24,6 +26,7 @@ Perform analysis using SQL queries
 Build dashboard in Power BI
 
 🚀 How to Run the Project
+
 1. Clone Repository
 
 git clone

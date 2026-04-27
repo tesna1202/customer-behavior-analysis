@@ -1,0 +1,7 @@
+snapshot_date,kpi_name,kpi_value,unit,status,notes
+2026-04-27,total_revenue,233081.0,USD,ok,Overall revenue in the dataset.
+2026-04-27,average_order_value,59.76,USD,ok,Average spend per purchase.
+2026-04-27,high_value_customers,978.0,customers,ok,Customers at or above the 75th percentile of purchase amount.
+2026-04-27,churn_risk_customers,142.0,customers,ok,"Customers with low loyalty, no subscription, and infrequent purchases."
+2026-04-27,inactive_customer_rate,44.08,percent,watch,Share of customers buying every 90 days or less frequently.
+2026-04-27,season_revenue_change_pct,7.6,percent,ok,Revenue change from Summer to Fall.

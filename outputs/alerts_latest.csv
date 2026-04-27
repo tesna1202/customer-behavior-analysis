@@ -1,0 +1,2 @@
+snapshot_date,alert_type,severity,message
+2026-04-27,Inactive customers,Medium,Inactive customer rate is above 30% and should be reviewed.

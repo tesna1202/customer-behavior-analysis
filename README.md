@@ -1,13 +1,14 @@
-Customer Behavior Analysis (End-to-End Data Project)
+Customer Behavior Analysis & KPI Automation
 
 📌 Overview
 
-This project demonstrates a complete data analytics pipeline, starting from raw data to business insights.
+This project demonstrates a complete customer analytics pipeline, starting from raw data and ending in business-ready KPI monitoring and reporting.
 
 The workflow includes:
-Data Cleaning & Exploration using Python
-Data Storage & Analysis using SQL Server
-Interactive Dashboard using Power BI
+- Data cleaning and transformation using Python
+- KPI calculation and simple alert automation
+- Data storage and analysis using SQL Server
+- Interactive dashboarding using Power BI
 
 🛠️ Tech Stack
 
@@ -15,15 +16,6 @@ Python (Pandas, NumPy, Seaborn, Matplotlib)
 SQL Server
 Power BI
 SQLAlchemy & PyODBC
-
-🔄 Workflow
-
-Load raw data using Python
-Clean and preprocess dataset
-Create new features (e.g., spending categories)
-Load cleaned data into SQL Server
-Perform analysis using SQL queries
-Build dashboard in Power BI
 
 🚀 How to Run the Project
 
@@ -35,28 +27,15 @@ git clone
 
 pip install -r requirements.txt
 
-3. Run Jupyter Notebook
+3. Run the Main Pipeline
 
-python -m notebook
+python run_pipeline.py
 
-Open:
-notebooks/01_data_cleaning_eda.ipynb
+4. Run SQL Queries
 
-4. Setup Database
+Open sql queries in SSMS and execute queries
 
-Create database in SQL Server:
-CREATE DATABASE customer_analysis;
-
-5. Load Data into SQL Server
-
-Run:
-df.to_sql('customer_data', engine, if_exists='replace', index=False)
-
-6. Run SQL Queries
-
-Open sql/analysis_queries.sql in SSMS and execute queries
-
-7. Open Power BI Dashboard
+5. Open Power BI Dashboard
 
 Open:
-powerbi/dashboard.pbix
+powerbi files 
